@@ -1,11 +1,10 @@
 
 @media screen and (max-width: 500px) {
- 
-  picture{
-    width: 250px;
-      height: 250px;
+  .image-gallery img {
+  
     border: 5px solid brown;    
     border-radius: 50%;
+    overflow: hidden;
    
   }
 }
@@ -55,10 +54,13 @@
 
   @media  screen and (max-width: 1201px) {
     
-  picture {
+  .image-gallery img {
     width: 250px;
-    height: 100px;
+    height: 250px;
     border: 3px solid green;
+    overflow: hidden;
     
       }
   }
+
+  
