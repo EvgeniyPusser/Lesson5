@@ -3,7 +3,7 @@
   .image-gallery img {
   
     border: 5px solid brown;    
-    border-radius: 50%;
+    border-radius: 30%;
     overflow: hidden;
    
   }
@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (max-width: 1200px) {
   .image-gallery {
     flex-direction: column;
     flex: wrap;
@@ -51,14 +51,19 @@
   }
    
   }
-
-  @media  screen and (max-width: 1201px) {
+ @media screen and (min-width: 1201px) {
+   .image-gallery {
+     background-color: blueviolet;
+     /* text-align: center; */
+    
+}
     
   .image-gallery img {
-    width: 250px;
-    height: 250px;
+    /* width: 200px;
+          height: 350px; */
     border: 3px solid green;
     overflow: hidden;
+  margin: 8px;
     
       }
   }
